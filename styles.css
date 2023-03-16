@@ -5,13 +5,10 @@ html,body{
     padding:0;
 }
 
-/* *{
-    box-sizing: border-box;
-} */
-
 
 body{
     background-color: blanchedalmond;
+    font-family: 'Delius Swash Caps';
 
 }
 
@@ -137,7 +134,7 @@ header{
 }
 
 #footer1{
-    height: 75px;
+    height: 60px;
     width: 100%;
     background-color: rgb(132, 156, 83);
     color: blanchedalmond;
@@ -151,7 +148,7 @@ header{
     display: flex;
     align-items: center;
     width: auto;
-    height: auto;
+    height: 40px;
     flex-direction: row;
     font-size: 20px;
 
@@ -170,8 +167,25 @@ header{
     display: flex;
     align-items: center;
     width: auto;
-    height: auto;
+    height: 40px;
     flex-direction: row;
     font-size: 20px;
+    letter-spacing: 1px;
 
+}
+
+.fa-envelope{
+    color: #1F7B3B;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.fa-brands{
+    color: #1F7B3B;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.fa-brands:hover{
+    color: blanchedalmond;
 }
