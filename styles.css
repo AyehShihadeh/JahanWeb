@@ -1,0 +1,177 @@
+html,body{
+    height: auto;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
+/* *{
+    box-sizing: border-box;
+} */
+
+
+body{
+    background-color: blanchedalmond;
+
+}
+
+header{
+    background-color: rgb(132, 156, 83); 
+    border-bottom: 5px solid rgb(128, 151, 80);
+    display: flex;
+    align-items: center;
+    height: 130px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.head-img img{
+    overflow: hidden;
+    width: 280px;
+}
+
+.name-profession{
+    width: 300px;
+    height: 70px;
+}
+
+.name{
+    color: blanchedalmond;
+    font-size: 40px;
+    font-weight: 1000;
+    letter-spacing: 2px;
+
+}
+
+.profession{
+    color: blanchedalmond;
+    letter-spacing: 2px;
+}
+
+.menu{
+    font-size: 20px;
+    word-spacing: 80px;
+    letter-spacing: 2px;
+    color: blanchedalmond;
+    position: absolute;
+    left: 1470px;
+}
+
+.menu-item a{
+    text-decoration: none;
+}
+
+.menu-item a:visited{
+    color: inherit;
+}
+
+.menu-item:hover{
+    color: #1F7B3B;
+}
+
+#garland{
+    width: 45px;
+    height: 45px;
+}
+
+#garland2{
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    position: absolute;
+    right: 1px;
+}
+
+.main-section{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+    margin: 100px 0px;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    /* border: 2px black solid; */
+}
+
+.headshot{
+    border: 3px solid  rgb(104, 124, 65);
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    width: fit-content;
+    border-radius: 50%;
+    background-color:  rgb(132, 156, 83);
+
+}
+
+#jahan{
+    border-radius: 50%;
+    height: 400px;
+    width: 300px;
+}
+
+
+.about-me{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 3px;
+    margin: 3px;
+    width: fit-content;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.title{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+
+.paragraph{
+    word-spacing:3px;
+    letter-spacing: 0px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#footer1{
+    height: 75px;
+    width: 100%;
+    background-color: rgb(132, 156, 83);
+    color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.email-section{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    font-size: 20px;
+
+}
+
+#icon{
+    margin: 5px;
+}
+
+
+#icon:hover{
+    
+}
+
+.follow-me-section{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    font-size: 20px;
+
+}
