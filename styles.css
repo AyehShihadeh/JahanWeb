@@ -13,7 +13,7 @@ body{
 }
 
 header{
-    background-color: rgb(132, 156, 83); 
+    background-color:  rgb(132, 156, 83); 
     border-bottom: 5px solid rgb(128, 151, 80);
     display: flex;
     align-items: center;
@@ -35,7 +35,7 @@ header{
 .name{
     color: blanchedalmond;
     font-size: 40px;
-    font-weight: 1000;
+    font-weight: 600;
     letter-spacing: 2px;
 
 }
@@ -52,6 +52,7 @@ header{
     color: blanchedalmond;
     position: absolute;
     left: 1470px;
+    /* font-weight: 500; */
 }
 
 .menu-item a{
@@ -92,37 +93,39 @@ header{
 }
 
 .headshot{
-    border: 3px solid  rgb(104, 124, 65);
+    /* border: 3px solid  rgb(104, 124, 65); */
     display: flex;
     padding: 5px;
     margin: 5px;
+    margin-right: 50px;
     width: fit-content;
-    border-radius: 50%;
-    background-color:  rgb(132, 156, 83);
+    /* border-radius: 50%; */
+    /* background-color:  rgb(132, 156, 83); */
 
 }
 
 #jahan{
     border-radius: 50%;
-    height: 400px;
-    width: 300px;
+    height: 470px;
+    width: 380px;
 }
 
 
 .about-me{
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
     padding: 3px;
     margin: 3px;
     width: fit-content;
     border-radius: 10px;
-    width: 600px;
+    width: 1500px;
+    color: #114722;
 }
 
 .title{
-    font-size: 24px;
+    font-size: 35px;
     margin-bottom: 40px;
+    color: #144e25;
 }
 
 
@@ -131,6 +134,51 @@ header{
     letter-spacing: 0px;
     font-size: 18px;
     line-height: 30px;
+}
+
+
+.experience-section{
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    background-color: rgb(252, 228, 194);
+    align-items: center;
+    flex-direction: column;
+}
+
+.experience-header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+.line{
+    width: 1400px;
+    height: 10px;
+    background-color:#124722 ;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+
+.experience-title{
+    margin-left: 30px;
+    letter-spacing: 2px;
+    color: #124923;
+    font-weight: 500;
+}
+
+.education-section{
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    background-color: blanchedalmond;
+    align-items: center;
+    flex-direction: column;
 }
 
 #footer1{
