@@ -3,6 +3,7 @@ html,body{
     width: 100%;
     margin:0;
     padding:0;
+    scroll-behavior: smooth;
 }
 
 
@@ -30,6 +31,9 @@ header{
 .name-profession{
     width: 300px;
     height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .name{
@@ -52,7 +56,6 @@ header{
     color: blanchedalmond;
     position: absolute;
     left: 1470px;
-    /* font-weight: 500; */
 }
 
 .menu-item a{
@@ -81,27 +84,20 @@ header{
 }
 
 .main-section{
-    justify-content: center;
     display: flex;
+    justify-content: center;
     align-items: center;
-    height: 700px;
-    width: 1200px;
-    margin: 100px 0px;
-    justify-content: space-evenly;
-    margin-left: 50px;
-    /* border: 2px black solid; */
+    height: 800px;
+    width: 100%;
+    /* justify-content: space-evenly; */
 }
 
 .headshot{
-    /* border: 3px solid  rgb(104, 124, 65); */
     display: flex;
     padding: 5px;
     margin: 5px;
     margin-right: 50px;
     width: fit-content;
-    /* border-radius: 50%; */
-    /* background-color:  rgb(132, 156, 83); */
-
 }
 
 #jahan{
@@ -116,9 +112,8 @@ header{
     flex-direction: column;
     padding: 3px;
     margin: 3px;
-    width: fit-content;
+    width: 40%;
     border-radius: 10px;
-    width: 1500px;
     color: #114722;
 }
 
@@ -139,11 +134,12 @@ header{
 
 .experience-section{
     display: flex;
-    height: 700px;
+    height: 650px;
     justify-content: center;
     background-color: rgb(252, 228, 194);
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .experience-header{
@@ -152,34 +148,83 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
 
 }
 
 
 .line{
-    width: 1400px;
+    width: 600px;
     height: 10px;
     background-color:#124722 ;
     border-radius: 20px;
-    margin-left: 50px;
 }
 
 
 .experience-title{
-    margin-left: 30px;
     letter-spacing: 2px;
     color: #124923;
     font-weight: 500;
 }
 
-.education-section{
+.col{
+    width: 40%;
+    height: fit-content;
+    padding: 10px;
     display: flex;
-    height: 700px;
-    justify-content: center;
-    background-color: blanchedalmond;
     align-items: center;
     flex-direction: column;
+
 }
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    background-color:  rgb(132, 156, 83, .1);
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 8px 8px 8px rgba(0,0,0,.05), 4px 4px 8px rgba(0,0,0,.1);
+    border-radius: 4px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.experience-divider{
+    width: 5px;
+    height: 60%;
+    background-color:  rgb(132, 156, 83, .2);
+    border-radius: 40%;
+}
+
+
+.fa-person-chalkboard{
+    font-size: 60px;
+    color: #1F7B3B;
+    margin-bottom: 10px;
+
+}
+
+.fa-user-graduate{
+    font-size: 60px;
+    color: #1F7B3B;
+    margin-bottom: 10px;
+}
+
+
+/* IDK-SECTION STUFF */
+.idk-section{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+}
+
+/* FOOTER STUFF */
 
 #footer1{
     height: 60px;
@@ -202,14 +247,7 @@ header{
 
 }
 
-#icon{
-    margin: 5px;
-}
 
-
-#icon:hover{
-    
-}
 
 .follow-me-section{
     display: flex;
