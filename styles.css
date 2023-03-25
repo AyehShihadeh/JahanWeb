@@ -181,7 +181,7 @@ header{
     height: auto;
     min-height: 100%;
     overflow: hidden;
-    width: 100%;
+    width: auto;
     margin-bottom: 50px;
     padding: 50px;
 
