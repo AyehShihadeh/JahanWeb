@@ -26,6 +26,7 @@ header{
     height: 130px;
     padding-left: 50px;
     padding-right: 50px;
+    position: relative;
 }
 
 .head-img img{
@@ -67,7 +68,10 @@ header{
     letter-spacing: 2px;
     color: blanchedalmond;
     position: absolute;
-    left: 1600px;
+    right: 50px;
+    top: 70px;
+
+    /* left: 1600px; */
 }
 
 .menu-item a{
@@ -105,8 +109,10 @@ header{
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 800px;
+    height: auto;
     width: 100%;
+    padding-top: 175px;
+    padding-bottom: 175px;
 }
 
 .headshot{
@@ -139,6 +145,7 @@ header{
     width: 40%;
     border-radius: 10px;
     color: #114722;
+    height: fit-content;
 }
 
 .title{
@@ -183,7 +190,7 @@ header{
     overflow: hidden;
     width: auto;
     margin-bottom: 50px;
-    padding: 50px;
+    padding: 100px 50px;
 
 }
 
@@ -253,7 +260,7 @@ header{
 
     width: auto;
     height: auto;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .card{
